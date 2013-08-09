@@ -17,12 +17,15 @@
       "type": "MIT"
     }
   ],
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  }
   "devDependencies": {
     "grunt-contrib-jshint": "~0.6.0",
     "grunt-contrib-nodeunit": "~0.2.0",
     "grunt-contrib-watch": "~0.5.0"
   },
   "scripts": {
-      "test": "grunt"
+    "test": "grunt"
   }
 }
