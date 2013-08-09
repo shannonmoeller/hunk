@@ -1,6 +1,6 @@
 {
   "name": "hunk",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Multipart files, one hunk at a time.",
   "homepage": "http://shannonmoeller.github.io/hunk",
   "bugs": "https://github.com/shannonmoeller/hunk/issues",
@@ -19,7 +19,7 @@
   ],
   "peerDependencies": {
     "grunt": "~0.4.1"
-  }
+  },
   "devDependencies": {
     "grunt-contrib-jshint": "~0.6.0",
     "grunt-contrib-nodeunit": "~0.2.0",
