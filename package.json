@@ -1,0 +1,28 @@
+{
+  "name": "hunk",
+  "version": "1.0.0",
+  "description": "Multipart files, one hunk at a time.",
+  "homepage": "http://shannonmoeller.github.io/hunk",
+  "bugs": "https://github.com/shannonmoeller/hunk/issues",
+  "author": {
+    "name": "Shannon Moeller",
+    "email": "me@shannonmoeller.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shannonmoeller/hunk"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.0"
+  },
+  "scripts": {
+      "test": "grunt"
+  }
+}
