@@ -1,6 +1,6 @@
 {
   "name": "hunk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Multipart files, one hunk at a time.",
   "homepage": "http://shannonmoeller.github.io/hunk",
   "bugs": "https://github.com/shannonmoeller/hunk/issues",
