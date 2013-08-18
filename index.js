@@ -10,7 +10,7 @@
 
 var delimiter = '---';
 
-var splitter = new RegExp('(?:^|\n)+(' + delimiter + '[^\n]*)(?:\n|$)+', 'g');
+var splitter = new RegExp('(?:^|\n)(' + delimiter + '[^\n]*)(?:\n|$)', 'g');
 
 var Hunks = function (data) {
     if (typeof data !== 'string') {
@@ -98,7 +98,7 @@ proto.generate = function () {
 
     for (; i < length; i += 2) {
         index = (i / 2) || 0;
-        key = hunks[i].slice(3) || index;
+        key = hunks[i].slice(3).trim() || index;
         value = hunks[i + 1] || '';
 
         if (key !== index) {
