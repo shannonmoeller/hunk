@@ -10,7 +10,7 @@
 
 var delimiter = '---';
 
-var splitter = new RegExp('(?:^|\n)(' + delimiter + '[^\n]*)(?:\n|$)', 'g');
+var splitter = new RegExp('(?:^|\r?\n)(' + delimiter + '[^\r\n]*)(?:\r?\n|$)', 'g');
 
 var Hunks = function (data) {
     if (typeof data !== 'string') {
