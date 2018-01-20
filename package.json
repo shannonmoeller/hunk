@@ -12,11 +12,7 @@
     "type": "git",
     "url": "https://github.com/shannonmoeller/hunk"
   },
-  "licenses": [
-    {
-      "type": "MIT"
-    }
-  ],
+  "license": "MIT",
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-contrib-jshint": "~0.6.0",
